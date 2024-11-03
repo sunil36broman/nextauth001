@@ -23,6 +23,7 @@ const LoginForm = () => {
                 console.error(response.error);
                 setError(response.error.message);
             } else {
+                console.log("login fromsumit ", response)
                 router.push("/home");
             }
         } catch (e) {
