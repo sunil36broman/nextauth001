@@ -17,7 +17,7 @@ const HomePage = async () => {
             {session?.user?.email2 && session?.user?.email2 ? (
                 <>
                     <h1 className="text-3xl my-2">
-                        Welcome, {session?.user?.email2}
+                        Welcome, {session?.user?.role}
                     </h1>
                     {/* <Image
                         src={session?.user?.image}
